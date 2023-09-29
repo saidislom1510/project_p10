@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
+@import "_header.scss";
+@import "_navbar.scss";
+@import "_body__p1.scss";
+@import "_body__p2.scss";
+@import "_body__p3.scss";
+@import "_body__p4.scss";
+@import "_body__p5.scss";
+@import "_body__p6.scss";

@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header {
+    background: #E5E5E5;
+}
+
+.header__flex {
+    display: flex;
+}
+
+.header__body__img {
+    padding: 80px 0px 0px 0px;
+}
+
+.header__flex .text__bg {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    color: #202336;
+    padding: 120px 0px 75px 0px;
+}
+
+.header__flex .text__mn {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #202336;
+    padding: 0px 0px 20px 0px;
+}
+
+.color {
+    background: #202336;
+    width: 32px;
+    height: 2px;
+    border: none;
+    border-radius: 4px;
+    margin: 0px 0px 48px 0px;
+}
+
+.header__select__p1 .select {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+    color: #4A4C53;
+    background: #E5E5E5;
+    border: 0.8px solid #AFB0B9;
+    border-radius: 6px;
+    padding: 21px 121px 21px 31px;
+    margin: 0px 30px 35px 0px;
+}
+
+.header__select__p1 .select2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+    color: #4A4C53;
+    background: #E5E5E5;
+    border: 0.8px solid #AFB0B9;
+    border-radius: 6px;
+    padding: 21px 121px 21px 31px;
+    margin-bottom: 35px;
+}
+
+.header__select__p2 .select {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+    color: #4A4C53;
+    background: #E5E5E5;
+    border: 0.8px solid #AFB0B9;
+    border-radius: 6px;
+    padding: 21px 140px 21px 31px;
+    margin: 0px 30px 35px 0px;
+}
+
+.header__select__p2 .select2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+    color: #4A4C53;
+    background: #E5E5E5;
+    border: 0.8px solid #AFB0B9;
+    border-radius: 6px;
+    padding: 21px 140px 21px 31px;
+    margin-bottom: 35px;
+}
+
+.header__body__btn button {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    color: #FFFFFF;
+    background: #FB8F1D;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 60px;
+    cursor: pointer;
+}
+
+.header__body__btn button:hover{
+    color: #FB8F1D;
+    background: #E5E5E5;
+    transition: 0.7s;
+}
+
+

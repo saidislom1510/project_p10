@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.navbar__img {
+    padding-top: 45px;
+}
+
+.navbar__img img:hover {
+    transform: scale(1.5);
+    transition: 0.8s;
+}
+
+.navbar__ul ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen {
+    
+}
+
+.navbar__ul ul .link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #B8BECD;
+    padding: 56px 35px 0px 0px;
+}
+
+.navbar__ul ul .link:hover {
+    color: #202336;
+    transition: 0.7s;
+}
+
+.navbar__btn button {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #FB8F1D;
+    border: 1px solid #FB8F1D;
+    border-radius: 8px;
+    background: #E5E5E5;
+    padding: 8px 46px;
+    margin: 43px 18px 0px 0px;
+}
+
+.navbar__btn2 button {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #FFFFFF;
+    background: #FB8F1D;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 46px;
+    margin-top: 43px;
+}
+
+.navbar__btn button:hover {
+    color: #FFFFFF;
+    background: #FB8F1D;
+    transition: 0.7s;
+}
+
+.navbar__btn2 button:hover {
+    color: #FB8F1D;
+    background: #E5E5E5;
+    border: 1px solid #FB8F1D;
+    transition: 0.7s;
+}
